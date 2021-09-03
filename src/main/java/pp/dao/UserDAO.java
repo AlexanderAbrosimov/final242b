@@ -7,7 +7,7 @@ import java.util.List;
 public interface UserDAO {
 
     List<User> findAll();
-    User find(String email);
+    User find(String s);
 
     void save(User user);
 
